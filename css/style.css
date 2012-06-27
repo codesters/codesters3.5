@@ -121,7 +121,7 @@ p {
 }
 
 section {
-    padding:70px 10px;
+    padding:40px 10px;
     margin:0;
 }
 #share {
@@ -135,6 +135,7 @@ section {
     padding:10px;
     margin-bottom:30px;
     border-radius:6px;
+    text-align:center;
     
 }
 #main article ul{
@@ -157,10 +158,7 @@ section {
 #home {
     padding-bottom:150px;
 }
-footer a, h3 {
-    font-size:2em;
-    text-align:center;
-}
+
 
 h2 {
     font-size:3em;
@@ -168,6 +166,30 @@ h2 {
     padding:10px 5px;
     font-weight:bold;
     color:#fff;
+    
+}
+#team img{
+	    width:150px;
+	    height:120px;
+	}
+
+h3 {
+    color:#fff;
+    font-size:1.7em;
+    margin:0;
+    padding:5px 0;
+}
+footer a {
+    float:right;
+    display:inline;
+}
+footer p{
+    display:inline;
+}
+
+.small p{
+    font-size:1em;
+    text-align:left;
 }
 
 /* ===================
@@ -180,7 +202,7 @@ h2 {
 #header-container,
 #footer-container,
 #main {
-	background:#537aa2;
+	background-color:#537aa2;
 }
 
 #team {
@@ -366,6 +388,15 @@ nav a:hover{
 	
 	#main{
 		width:75%;
+	}
+	
+	#team img{
+	    float:right;
+	    display:inline;
+	}
+	#team p{
+	    float:left;
+	    display:inline;
 	}
 
 }
