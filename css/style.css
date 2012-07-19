@@ -129,12 +129,12 @@ section {
     font-size:1.5em;
     background-color:#2e5479;
     color:#fff;
-    width:320px;
+    width:250px;
     margin:auto;
     margin-top:10px;
-    padding:10px;
+    padding:5px;
     margin-bottom:30px;
-    border-radius:6px;
+    border-radius:5px;
     text-align:center;
     
 }
@@ -152,7 +152,11 @@ section {
 #home ul li{
     float:left;
     display:inline;
-    margin-right:6px;
+    margin-right:5px;
+}
+
+#last {
+    margin-right:0;
 }
 
 #home {
@@ -221,6 +225,11 @@ ul li {
     }
 
 #title{ color:white; }
+
+#title a {
+    color:white;
+    text-decoration:none;
+}
 
 ::-moz-selection { background: #f16529; color: #fff; text-shadow: none; }
 ::selection      { background: #f16529; color: #fff; text-shadow: none; }
@@ -410,6 +419,10 @@ nav a:hover{
 	.wrapper{
 		width:1026px; /* 1140px - 10% for margins */
 		margin:0 auto;
+	}
+	
+	#share {
+	width:380px;
 	}
 }
 
